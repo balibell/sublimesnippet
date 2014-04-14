@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[word-break:keep-all;white-space:nowrap;overflow:hidden;]]></content>
+	<tabTrigger>nw</tabTrigger>
+	<scope>text.html,source.css</scope>
+</snippet>

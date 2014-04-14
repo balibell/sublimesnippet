@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[word-wrap:break-word;word-break:break-all;overflow:hidden;]]></content>
+	<tabTrigger>bw</tabTrigger>
+	<scope>text.html,source.css</scope>
+</snippet>

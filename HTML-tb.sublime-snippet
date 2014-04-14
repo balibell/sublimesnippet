@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[target="_blank"]]></content>
+	<tabTrigger>tb</tabTrigger>
+	<scope>text.html</scope>
+</snippet>

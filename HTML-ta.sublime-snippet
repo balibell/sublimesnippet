@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[<table cellspacing="0" cellpadding="0">
+	<tr>
+		<td>$0</td>
+	</tr>
+</table>]]></content>
+	<tabTrigger>ta</tabTrigger>
+	<scope>text.html</scope>
+</snippet>

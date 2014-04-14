@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[.clr{zoom:1}
+.clr:after{content:"\0020";display:block;height:0;overflow:hidden;clear:both;}]]></content>
+	<tabTrigger>clr</tabTrigger>
+	<scope>text.html,source.css</scope>
+</snippet>

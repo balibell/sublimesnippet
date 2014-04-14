@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[target="_self"]]></content>
+	<tabTrigger>ts</tabTrigger>
+	<scope>text.html</scope>
+</snippet>
