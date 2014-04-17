@@ -1,0 +1,24 @@
+<snippet>
+	<content><![CDATA[var \$abtn = \$('${1:#mybtn}');
+\$abtn.click(function (e){
+	e.preventDefault();
+	e.stopPropagation();
+	if( \$abtn.hasClass('abtn-no') ){
+		return;
+	}
+	\$abtn.addClass('abtn-no');
+	// ajax请求
+	\$.ajax({
+		url : "test.html",
+		data : "a=1&b=2",
+		mysuccess : function(jsn,h){
+			// TODO 请求成功，且操作成功。这里已经判断过 jsn.success == true or jsn.status == 1
+		}
+	}).always(function (){
+		//防止duplicate 提交将提交按钮重置
+		\$abtn.removeClass('abtn-no');
+	});
+})]]></content>
+	<tabTrigger>ajax</tabTrigger>
+	<scope>source.js,text.html</scope>
+</snippet>

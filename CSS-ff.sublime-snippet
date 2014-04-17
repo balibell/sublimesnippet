@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[font-family:'\5FAE\8F6F\96C5\9ED1';]]></content>
+	<tabTrigger>ff</tabTrigger>
+	<scope>text.html,source.css</scope>
+</snippet>

@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[<input class="ipt" type="text" name="${1:iptname}" value="">]]></content>
+	<tabTrigger>ipt</tabTrigger>
+	<scope>text.html</scope>
+</snippet>

@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[about:blank]]></content>
+	<tabTrigger>ab</tabTrigger>
+	<scope>text.html</scope>
+</snippet>

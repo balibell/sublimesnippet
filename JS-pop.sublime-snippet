@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[SUGAR.PopOut.alert('<div class="prompt prompt-fail"><h3>错误提示！</h3></div>')
+SUGAR.PopOut.alert('<div class="prompt prompt-success"><h3>成功提示！</h3></div>')
+SUGAR.PopOut.alert('<div class="prompt"><h3>普通提示。</h3></div>')
+// 400ms后自动关闭弹窗
+\$({}).delay(400).queue(function (){
+  SUGAR.PopOut.closeMask();
+})]]></content>
+	<tabTrigger>pop</tabTrigger>
+	<scope>source.js,text.html</scope>
+</snippet>

@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[<a class="abtn" href="javascript:;"><button type="button"><u>${1:提交}</u></button></a>]]></content>
+	<tabTrigger>abtn</tabTrigger>
+	<scope>text.html</scope>
+</snippet>
