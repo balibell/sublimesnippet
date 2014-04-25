@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[if(${1:true}){
-	$2ttt
+	$2
 }else{
 	$3
 }]]></content>
