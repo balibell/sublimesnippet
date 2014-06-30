@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[e.preventDefault();
+e.stopPropagation();
+]]></content>
+	<tabTrigger>ep</tabTrigger>
+	<scope>text.html,source.js</scope>
+</snippet>
+
+
